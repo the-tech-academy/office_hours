@@ -21,7 +21,7 @@ Sub frmMain
   GraphicsWindow.CanResize = 0
   GraphicsWindow.Width = 400
   GraphicsWindow.Height = 350
-  GraphicsWindow.Title = "Office Hour"
+  GraphicsWindow.Title = "Office Hours"
   GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(240, 240, 240)
   GraphicsWindow.FontBold = "False"
   GraphicsWindow.BrushColor = "Black"
@@ -91,7 +91,7 @@ Sub centerText
   'GraphicsWindow.FontSize = 12
   GraphicsWindow.BrushColor = "Black"
   GraphicsWindow.FontBold = "True"
-  text1 = "All office hours are from:"
+  text1 = "All Office Hours are from:"
   text2 = "9:00 am to 9:00 pm, or (0900) to (2100)."
   
   'Text.GetLength(caption) means the number of characters in the caption.  Default font size (height) is 
